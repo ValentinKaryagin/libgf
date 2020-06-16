@@ -1,0 +1,10 @@
+^D:\DEVELOPMENT\MASTER\HIGHFIVE\LIBH5\THIRD_PARTY\BULLET3-2.88\BUILD\CMAKEFILES\985367B54374B1F2AF7C956E55D3F9BD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Development/Master/highfive/libh5/third_party/bullet3-2.88 -BD:/Development/Master/highfive/libh5/third_party/bullet3-2.88/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Development/Master/highfive/libh5/third_party/bullet3-2.88/build/BULLET_PHYSICS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

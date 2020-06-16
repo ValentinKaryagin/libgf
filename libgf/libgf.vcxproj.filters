@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="err_codes.h" />
+    <ClInclude Include="commons.h" />
+    <ClInclude Include="cstd.h" />
+    <ClInclude Include="libgf.h" />
+    <ClInclude Include="physics_component.h">
+      <Filter>framework\objects\components\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_component.h">
+      <Filter>framework\objects\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_instanced_component.h">
+      <Filter>framework\objects\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render_component.h">
+      <Filter>framework\objects\components\render</Filter>
+    </ClInclude>
+    <ClInclude Include="rigidbody_component.h">
+      <Filter>framework\objects\components\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>framework\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>framework\objects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="static_mesh.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cppstd.h" />
+    <ClInclude Include="vertex.h" />
+    <ClInclude Include="utils.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>framework\sys\render</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>framework\sys\render</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_shader.h">
+      <Filter>framework\sys\render</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>framework\sys\window</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>framework\sys\physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="physics_component.cpp">
+      <Filter>framework\objects\components\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_component.cpp">
+      <Filter>framework\objects\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_instanced_component.cpp">
+      <Filter>framework\objects\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="render_component.cpp">
+      <Filter>framework\objects\components\render</Filter>
+    </ClCompile>
+    <ClCompile Include="rigidbody_component.cpp">
+      <Filter>framework\objects\components\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>framework\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>framework\objects\components</Filter>
+    </ClCompile>
+    <ClCompile Include="static_mesh.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>framework\sys\render</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>framework\sys\render</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_shader.h">
+      <Filter>framework\sys\render</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_shader.cpp">
+      <Filter>framework\sys\render</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex_shader.cpp">
+      <Filter>framework\sys\render</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>framework\sys\window</Filter>
+    </ClCompile>
+    <ClCompile Include="physics.cpp">
+      <Filter>framework\sys\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{63ca353e-8cf6-437a-b715-27bb22803009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\objects">
+      <UniqueIdentifier>{72cfe2e5-eb1d-444c-bb23-a6c36615c803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\objects\components">
+      <UniqueIdentifier>{d7a0ab3b-7c9d-4020-a383-cade19445d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\objects\components\physics">
+      <UniqueIdentifier>{363e3e1a-206a-4014-a522-0720b2ab6e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\objects\components\render">
+      <UniqueIdentifier>{32352b2d-a08c-4244-b9e3-22ad36d3ec10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\sys">
+      <UniqueIdentifier>{27f0e000-55d2-4e00-9f81-7044b470f922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\sys\render">
+      <UniqueIdentifier>{1709bb81-0134-4be8-9f51-77238169bff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\sys\window">
+      <UniqueIdentifier>{ea2bfc0e-3f07-4382-b49c-79b4fba60a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\sys\physics">
+      <UniqueIdentifier>{bb509ae6-3224-435c-8dbf-655bbab1dfbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

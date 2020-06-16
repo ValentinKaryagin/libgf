@@ -1,0 +1,14 @@
+﻿  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  b3CpuRigidBodyPipeline.cpp
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  b3FixedConstraint.cpp
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  b3Generic6DofConstraint.cpp
+  b3PgsJacobiSolver.cpp
+  b3Point2PointConstraint.cpp
+  cl : Command line warning D9002 : ignoring unknown option '/arch:SSE2'
+  b3TypedConstraint.cpp
+  Bullet3Dynamics.vcxproj -> C:\Development\Master\Radiant\ThirdParty\bullet3-2.88\build3\vs2010\..\..\bin\Bullet3Dynamics_vs2010_x64_release.lib
